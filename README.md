@@ -1,8 +1,8 @@
-# ![[tktk Module Name] - Solution](./internal-resources/assets/tktk-hero.png)
+# ![MEN Stack Relating Data Lab - Cookbook - Solution](./internal-resources/assets/tktk-hero.png)
 
 ## About
 
-
+This repo provides solution code for the MEN Stack Relating Data Lab, Cookbook. 
 
 ## Internal resources
 
