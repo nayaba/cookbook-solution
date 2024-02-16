@@ -1,4 +1,4 @@
-# ![MEN Stack Relating Data Lab - Cookbook - Solution](./internal-resources/assets/tktk-hero.png)
+# ![MEN Stack Relating Data Lab - Cookbook - Solution](./internal-resources/assets/hero.png)
 
 ## About
 
