@@ -6,7 +6,7 @@ This repo provides solution code for exercises in the `MEN Stack Relating Data L
 
 - The `main` branch contains solution code for the Embedding Related Data Exercise.
 
-- The `referencing-related-data-solution` branch contains solution code for the Referncing Related Data Exercise.
+- The `referencing-related-data-solution` branch contains solution code for the Referencing Related Data Exercise.
 
 ## Internal resources
 
