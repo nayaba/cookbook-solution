@@ -9,6 +9,7 @@
   <%- include('../partials/_navbar.ejs') %>
   <h1>Welcome to <%= pageOwner.username %>'s Pantry</h1>
   <% if(pageOwner.pantry.length) { %>
+  <p>Currently stocked with:</p>
   <ul>
     <% pageOwner.pantry.forEach((food)=>{ %>
       <li><%= food.name %></li>
