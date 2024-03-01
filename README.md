@@ -2,7 +2,11 @@
 
 ## About
 
-This repo provides solution code for the MEN Stack Relating Data Lab, Cookbook. 
+This repo provides solution code for exercises in the `MEN Stack Relating Data Lab, Cookbook`.
+
+- The `main` branch contains solution code for the Embedding Related Data Exercise.
+
+- The `referencing-related-data-solution` branch contains solution code for the Referncing Related Data Exercise.
 
 ## Internal resources
 
