@@ -3,6 +3,8 @@
   <% if(user) { %>
     <a href="/users">Explore Our Community</a>
     <a href="/users/<%=user._id%>/foods">View my Pantry</a>
+    <a href="/recipes">My Recipes</a>
+    <a href="/ingredients">Ingredient Catalogue</a>
     <a href="/auth/sign-out">Sign Out</a>
   <% } else { %>
     <a href="/auth/sign-in">Sign In</a>
