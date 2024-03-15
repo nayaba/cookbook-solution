@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= pageOwner.username %>'s Pantry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= pageOwner.username %>'s Pantry
+    </title>
 </head>
+
 <body>
-  <%- include('../partials/_navbar.ejs') %>
-  <h1>Welcome to <%= pageOwner.username %>'s Pantry</h1>
-  <% if(pageOwner.pantry.length) { %>
-  <p>Currently stocked with:</p>
-  <ul>
-    <% pageOwner.pantry.forEach((food)=>{ %>
-      <li><%= food.name %></li>
-    <% }) %>
-  </ul>
-  <% } else { %>
-    <p>There are no items in this pantry.</p>
-  <% } %>
+    <%- include('../partials/_navbar.ejs') %>
+        <h1>Welcome to <%= pageOwner.username %>'s Recipes</h1>
+        <% if(ownerRecipes.length) { %>
+            <% ownerRecipes.forEach((recipe)=>{ %>
+                <h2>
+                    <%= recipe.name %>
+                </h2>
+                <p>
+                    <%= recipe.instructions %>
+                </p>
+                <h3>Ingredients</h3>
+                <ul>
+                    <% recipe.ingredients.forEach((ing)=>{ %>
+                        <p>
+                            <%= ing.name %>
+                        </p>
+                    <% }) %>
+                </ul>
+                <% }) %>
+        <% } else { %>
+            <p>This user currently has no recipes.</p>
+        <% } %>
 </body>
-</html>
